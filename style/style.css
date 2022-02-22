@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flexbox;
+}
+header {
+    width: 100%;
+    background: #203047;
+    display: inline-block
+}
+
+.caixa {
+    width: 1440px;
+    height: 100px;
+    margin: 2em;
+}
+
+.logo-amarela {
+    color: #f5d01f;
+    font-weight: bold;
+    font-size: 2em;
+    display: inline;
+}
+
+.logo-branca {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline;
+}
+
+.dados-usuario {
+    position: absolute;
+    display: inline-flex;
+    right: 50px;
+    color: #fff
+}
+
+.foto {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+main {
+    margin: 50px 50px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/*
+
+
+
+
+

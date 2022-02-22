@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Let'sDoIt</title>
+
+        <link rel="stylesheet" href="style\reset-css.css">
+        <link rel="stylesheet" href="style\style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
+        <head>
+    <body>
+        <header>
+            <section class="caixa">
+                <div>
+                    <h1 class="logo-amarela">Let's</h1><h1 class="logo-branca">DoIt</h1>
+                </div>
+                <div class="dados-usuario">
+                    <img class="foto" src="./images/pp.jpg" alt="Foto do usuário">
+                    <div>
+                        <p class="dado nome">Nathalia Carvalho</p>
+                        <p class="dado mensagem">Bem-vinda ao Let'sDoIt</p><p class="mensagem">Sair</p>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="container">
+                <table>
+                    <form id="form-adiciona">
+                        <div class="grupo">
+                            <label for="nome">Incluir tarefa</label>
+                            <input id="descricao" name="descricao" type="text" placeholder="Descreva a tarefa a fazer" class="campo">
+                            <button id="adicionar-tarefa" class="btn-adicionar">Adicionar</button>
+                        </div>
+                    </form>
+                </table>
+            </section>
+
+            <section class="container">
+                <h2 id="titulo-form">Tarefas a fazer</h2>
+
+                <table>
+					<thead>
+						<tr>
+							<th>Tarefa</th>
+							<th>Data limite</th>
+							<th>Excluir</th>
+							<th>Feito</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-pacientes">
+						<tr class="paciente" id="primeiro-paciente">
+                            <td class="info-nome">Finalizar site</td>
+							<td class="info-peso">29/02/22</td>
+							<td class="info-altura">--</td>
+							<td class="info-gordura">--</td>
+						</tr>
+					</tbody>
+				</table>
+            </section>
+
+            <section class="container">
+                <h2 id="titulo-form">Tarefas feitas</h2>
+                <table>
+					<thead>
+						<tr>
+							<th>Tarefa</th>
+							<th>Data limite</th>
+							<th>Excluir</th>
+							<th>Feito</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-pacientes">
+						<tr class="paciente" id="primeiro-paciente">
+							<td class="info-nome">Enviar email</td>
+							<td class="info-peso">05/02/22</td>
+							<td class="info-altura">--</td>
+							<td class="info-gordura">--</td>
+						</tr>
+					</tbody>
+				</table>
+            </section>
+            
+
+            
+        </main>
+        <footer>
+            <p class="dev">Challenge Let's Code</p>
+            <p class="dev">Desenvolvido por <a href="www.linkedin.com/in/nathaliacondellocarvalho/">Nathalia Carvalho</p>
+        </footer>
+
+        <!-- Importação dos Javascripts AQUI -->
+        <script src="./inserir-tarefa.js"></script>
+    </body>
+</head>
