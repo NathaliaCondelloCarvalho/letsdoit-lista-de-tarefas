@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-    display: flexbox;
 }
+
 header {
     width: 100%;
     background: #203047;
@@ -9,37 +9,74 @@ header {
 }
 
 .caixa {
-    width: 1440px;
-    height: 100px;
-    margin: 2em;
+    width: 94%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.logo{
+    width: 50%;
+    display: inline-block;
+    margin-top: 30px;
 }
 
 .logo-amarela {
     color: #f5d01f;
     font-weight: bold;
     font-size: 2em;
-    display: inline;
+    display: inline-block;
 }
 
 .logo-branca {
+    display: inline;
     color: #fff;
     font-size: 2em;
     font-weight: bold;
-    display: inline;
 }
 
-.dados-usuario {
-    position: absolute;
-    display: inline-flex;
-    right: 50px;
-    color: #fff
+.dados-usuario{
+    display: flex;
+    width: 50%;
+    padding: 10px 0;
 }
 
 .foto {
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 5px;
 }
+
+header a{
+    color: #fff;
+}
+
+.dado {
+    color: #fff;
+    display: inline-block;
+}
+
+.dado-item {
+    color: #fff;
+    padding-top: 0.2em;
+}
+
+.nome {
+    font-size: 1.5em;
+}
+
+.mensagem {
+    font-size: 0.7em;
+}
+
+.sair{
+    font-size: 0.7em;
+}
+
 main {
     margin: 50px 50px;
 }
@@ -51,8 +88,6 @@ main {
 footer {
     text-align: center;
 }
-
-
 /*
 
 
