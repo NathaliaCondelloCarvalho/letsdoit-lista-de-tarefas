@@ -14,7 +14,7 @@ Projeto de uma aplicação para lista de tarefas.
   não concluída, a depender do estado do checkbox (checked ou unchecked).
 - Remover tarefa: por fim, cada tarefa adicionada também deverá conter um botão para removê-la. Ao clicar nesse botão, a respectiva tarefa deverá ser removida da listagem.
 
-## Requisitos visuais:
+## Requisitos Visuais:
 
 1. As cores utilizadas no projeto são elencadas abaixo:
 
