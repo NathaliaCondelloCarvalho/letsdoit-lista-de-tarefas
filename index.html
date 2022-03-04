@@ -19,66 +19,67 @@
                 <div class="dados-usuario">
                     <img class="foto" src="./images/pp.jpg" alt="Foto do usuário">
                     <div class="dado">
-                        <p class="dado-item nome"> Nathalia Carvalho</p>
-                        <p class="dado-item mensagem"> <a href=""> Bem-vinda ao Let'sDoIt</a></p>
-                        <p class="dado-item sair"><a href="">Sair</a></p>
+                        <p class="dado-item nome"> <a href="./dados-usuario.html">Nathalia Carvalho</a></p>
+                        <p class="dado-item mensagem">Bem-vinda ao Let'sDoIt</p>
+                        <p class="dado-item sair"><a href="./index.html">Home</a><a href="">Sair</a></p>
                     </div>
                 </div>
             </section>
         </header>
+
         <main>
             <section class="container">
                 <table>
                     <form id="form-adiciona">
                         <div class="grupo">
-                            <label for="nome">Incluir tarefa</label>
-                            <input id="descricao" name="descricao" type="text" placeholder="Descreva a tarefa a fazer" class="campo">
-                            <button id="adicionar-tarefa" class="btn-adicionar">Adicionar</button>
+                            <label for="nome">Incluir tarefa:</label>
+                            <input id="descricao" name="descricao" type="text" placeholder="Escreva aqui para incluir tarefa" class="campo">
+                            <button id="adicionar-tarefa" class="adicionar">Adicionar tarefa</button>
                         </div>
                     </form>
                 </table>
             </section>
 
             <section class="container">
-                <h2 id="titulo-form">Tarefas a fazer</h2>
+                <h2>Tarefas a fazer</h2>
 
                 <table>
 					<thead>
 						<tr>
-							<th>Tarefa</th>
+							<th class="descricao">Tarefa</th>
 							<th>Data limite</th>
 							<th>Excluir</th>
 							<th>Feito</th>
 						</tr>
 					</thead>
-					<tbody id="tabela-pacientes">
-						<tr class="paciente" id="primeiro-paciente">
-                            <td class="info-nome">Finalizar site</td>
-							<td class="info-peso">29/02/22</td>
-							<td class="info-altura">--</td>
-							<td class="info-gordura">--</td>
+					<tbody>
+						<tr>
+							<td>Ligar Joana</td>
+							<td>05/02/22</td>
+							<td>--</td>
+							<td>--</td>
 						</tr>
 					</tbody>
 				</table>
             </section>
 
             <section class="container">
-                <h2 id="titulo-form">Tarefas feitas</h2>
+                <h2>Tarefas feitas</h2>
                 <table>
 					<thead>
 						<tr>
-							<th>Tarefa</th>
+							<th class="descricao">Tarefa</th>
 							<th>Data limite</th>
 							<th>Excluir</th>
 							<th>Feito</th>
 						</tr>
 					</thead>
-					<tbody id="tabela-pacientes">
-						<tr class="paciente" id="primeiro-paciente">
-							<td class="info-nome">Enviar email</td>
-							<td class="info-peso">05/02/22</td>
-							<td class="info-altura">--</td>
-							<td class="info-gordura">--</td>
+					<tbody>
+						<tr>
+							<td>Enviar email</td>
+							<td>05/02/22</td>
+							<td>--</td>
+							<td>--</td>
 						</tr>
 					</tbody>
 				</table>
@@ -87,9 +88,10 @@
 
             
         </main>
+
         <footer>
-            <p class="dev">Challenge Let's Code</p>
-            <p class="dev">Desenvolvido por <a href="www.linkedin.com/in/nathaliacondellocarvalho/">Nathalia Carvalho</p>
+            <p>Challenge Let's Code</p>
+            <p>Desenvolvido por <a href="www.linkedin.com/in/nathaliacondellocarvalho/">Nathalia Carvalho</p>
         </footer>
 
         <!-- Importação dos Javascripts AQUI -->

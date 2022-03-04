@@ -55,9 +55,15 @@ header a{
     color: #fff;
 }
 
+header a:hover {
+    color: #f5d01f;
+}
+
 .dado {
     color: #fff;
     display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 .dado-item {
@@ -69,26 +75,100 @@ header a{
     font-size: 1.5em;
 }
 
+.nome a {
+    text-decoration: none;
+}
+
 .mensagem {
-    font-size: 0.7em;
+    font-size: .9em;
+
 }
 
 .sair{
-    font-size: 0.7em;
+    font-size: .7em;
+    margin-top: 5px;
+    text-align: center;
 }
 
-main {
-    margin: 50px 50px;
+.sair a{
+    margin: 0px 20px;
+}
+
+/*corpo do site*/
+.grupo  {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.campo {
+    font-size: 12px;
+    width: 450px;
+    line-height: 25px;
+    padding: 0px 10px;
+    margin-left: 20px;
+    border-color: #203047;
+    border-radius: 5px;
+}
+
+.adicionar {
+    width: 200px;
+    height: 35px;
+    background: #203047;
+    color: #f5d01f;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 25px;
+    border-color: #203047;
+    text-transform: uppercase;
+}
+
+.adicionar:hover {
+    transform: scale(1.1);
+    background: #f5d01f;
+    color: #203047;
 }
 
 .container {
     margin-top: 50px;
+    margin: 50px 50px;
+}
+
+.container h2 {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.container table {
+    border-color: #203047;
+    margin-left: 5%;
+}
+
+.container td, .container th {
+    border: 1px solid #203047;
+    color: #203047;
+    padding: 8px 20px;
+}
+
+th {
+    text-align: center;
+    background:#f5d01f;
+    width: 100px;
+    font-weight: 800;
+}
+
+td {
+    text-align: center;
+}
+
+.descricao {
+    width: 650px;
 }
 
 footer {
     text-align: center;
+    margin-top: 150px;
 }
-/*
 
 
 
